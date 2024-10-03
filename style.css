@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+}
+.jhalar{
+    width: 250px;
+    margin-bottom: -120px;
+}
+.hero-section{
+    /* min-height: 100vh; */
+    background-image: url(/images/orange-backdrop\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-section p{
+    font-size: 46.67px;
+    font-family: "Salsa", cursive;
+    max-width: 550px;
+}
+.para-audio{
+    margin-left: 260px;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #FBD8A4;
+}
+
+.audio-container{
+    background-color: #FBD8A4;
+    max-width: max-content;
+    border-radius: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.lak-gan{
+    background-color: #F99501;
+    padding-block : 10px;
+    padding-inline: 1rem;
+}
+
+.lak-gan h2{
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'Style Script',cursive;
+    text-align: center;
+    font-size: 46.67px;
+}
+
+.lak-gan-img{
+    max-width: 950px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: -40px;
+    
+}
+
+.horizontal-divider{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    max-width: 800px;
+    margin-inline: auto;
+    padding-bottom: 20px;
+}
+
+.horizontal-line{
+    height: 2px;
+    width: 468px;
+    background-color: #FBD8A4;
+}
+
+.circle{
+    height: 10px;
+    width: 10px;
+    background-color: #FBD8A4;
+    border-radius: 100%;
+    flex-shrink: 0;
+}
+
+.white-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.white-card{
+    background-color: white;
+    max-width: 350px;
+    padding: 4rem;
+    border-radius: 24px;
+    display: inline-block;
+}
+.white-card p{
+    font-size: 25px;
+    font-family: "Salsa", cursive;
+}
+
+.girl{
+    max-width: 250px ;
+    margin-left: -80px;
+}
+
+.lak-gan-card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 3rem;
+    max-width: 1300px;
+    display: flex;
+    margin-inline: auto;
+}
+
+.lak-gan-card img{
+    width: 50%;
+}
+
+.thanks{
+    max-width: 1300px;
+}
+.thanks p{
+    font-family: "Salsa", cursive;
+}
+.thanks h2 {
+    text-align: left;
+    margin-top: -10px;
+    font-family: "Salsa", cursive;
+    
+}
+.end h5{
+    text-align: right;
+    font-family: "Salsa", regular;
+    font-size: 20px;
+}
+@media (width<835px){
+    .deepak1{
+        display: block;
+        margin-left: auto;
+    }
+
+    .deepak2,.soulful-music,.play{
+        display: none;
+    } 
+
+    .para-audio{
+        margin-left: 1rem;
+    }
+    .jhalar{
+        margin-bottom: -30px;
+    }
+
+    .hero-section p{
+        font-size: 28px;
+    }
+    .deepak1{
+        max-width: 100%;
+
+    }
+    .lak-gan h2{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .white-card p{
+        font-size: 15px;
+    }
+    .white-card{
+        padding-block: 1rem;
+        padding-left: 2rem;
+    }
+    .girl{
+        max-width: 150px;
+        margin-left: -50px;
+    }
+
+    .lak-gan-card{
+        padding: 1rem;
+    }
+    .end h5{
+        text-align: right;
+        font-family: "Salsa", regular;
+        font-size: 15px;
+        margin-bottom: -2px;
+    }
+    .thanks h2 {
+        margin-top: -10px;
+    }
+}
